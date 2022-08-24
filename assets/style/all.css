@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v5.0.2 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11563,10 +11564,16 @@ fieldset:disabled .btn {
   }
 }
 
+/*全站設定*/
+/*工具類 class，.mb-1、.pr-3...等*/
+/*側邊欄*/
 .index__h1 {
   color: #00cc99;
   font-size: 50px;
   font-weight: 400;
 }
+
+/*首頁*/
+/*列表欄*/
 
 /*# sourceMappingURL=all.css.map */
