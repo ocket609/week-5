@@ -5,6 +5,8 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -11565,12 +11567,100 @@ fieldset:disabled .btn {
 }
 
 /*全站設定*/
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+}
+
 /*工具類 class，.mb-1、.pr-3...等*/
-/*側邊欄*/
-.index__h1 {
-  color: #00cc99;
-  font-size: 50px;
-  font-weight: 400;
+/*display*/
+.df {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.justify-cc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.justify-cspb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aling-ic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-dc {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/*margin & padding*/
+.pr-16 {
+  padding-right: 16px;
+}
+
+.pl-32 {
+  padding-left: 32px;
+}
+
+/*nav*/
+.nav {
+  max-width: 296px;
+  background-color: #F8F9FA;
+  padding: 40px 0 32px;
+}
+
+.nav-logo {
+  max-height: 40px;
+  padding-left: 32px;
+  margin-bottom: 32px;
+}
+
+.nav ul {
+  margin: -12px 0;
+}
+
+.nav a {
+  display: block;
+  color: #212529;
+  font-size: 16px;
+  padding: 12px 0 12px 32px;
+}
+
+.nav a span {
+  padding-right: 16px;
 }
 
 /*首頁*/
