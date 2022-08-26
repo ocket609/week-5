@@ -8365,6 +8365,10 @@ fieldset:disabled .btn {
   font-size: 1rem !important;
 }
 
+.fs-7 {
+  font-size: 0.875rem !important;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -11590,7 +11594,8 @@ a {
 }
 
 .container {
-  margin: 0 auto;
+  max-width: 984px;
+  padding: 0 33px;
 }
 
 /*工具類 class，.mb-1、.pr-3...等*/
@@ -11635,6 +11640,14 @@ a {
   padding-left: 32px;
 }
 
+.pt-360 {
+  padding-top: 360px;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
 /*nav*/
 .nav {
   max-width: 296px;
@@ -11645,11 +11658,11 @@ a {
 .nav-logo {
   max-height: 40px;
   padding-left: 32px;
-  margin-bottom: 32px;
 }
 
 .nav ul {
   margin: -12px 0;
+  padding-top: 32px;
 }
 
 .nav a {
@@ -11661,6 +11674,12 @@ a {
 
 .nav a span {
   padding-right: 16px;
+}
+
+.nav .user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 /*首頁*/
