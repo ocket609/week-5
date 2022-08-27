@@ -11593,19 +11593,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  max-width: 984px;
-  padding: 0 33px;
-}
-
 /*工具類 class，.mb-1、.pr-3...等*/
 /*display*/
-.df {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .justify-cc {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -11648,9 +11637,16 @@ a {
   padding-left: 16px;
 }
 
+/*容器*/
+.container {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 32px 33px;
+}
+
 /*nav*/
 .nav {
-  max-width: 296px;
+  width: 296px;
   background-color: #F8F9FA;
   padding: 40px 0 32px;
 }
@@ -11682,7 +11678,16 @@ a {
   border-radius: 50%;
 }
 
+.touch {
+  border-left: 4px solid #198754;
+}
+
 /*首頁*/
+.assignment .header-assignment a, .assignment .nav-assignment a {
+  display: block;
+  color: #212529;
+}
+
 /*列表欄*/
 
 /*# sourceMappingURL=all.css.map */

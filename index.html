@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
-  <body>
-    <div class="nav df flex-dc">
+  <body class="d-flex">
+    <div class="nav d-flex flex-dc">
       <div class="nav-logo">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg" alt="logo">
       </div>
@@ -22,7 +22,7 @@
         <li><a href=""><span class="material-symbols-outlined">
           forum
           </span>Question</a></li>
-        <li><a href=""><span class="material-symbols-outlined">
+        <li class="d-flex"><a class="touch text-success" href=""><span class="material-symbols-outlined">
           assignment
           </span>Assignment</a></li>
         <li><a href=""><span class="material-symbols-outlined">
@@ -35,7 +35,7 @@
           settings
           </span>Settings</a></li>
       </ul>
-      <div class="user df aling-ic pl-32 pt-360">
+      <div class="user d-flex aling-ic pl-32 pt-360">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg" alt="頭像">
         <div class="personal pl-16">
           <p class="fs-6 fw-bold mb-0">Andy Chen</p>
@@ -81,8 +81,78 @@
     </nav>-->
 
     
+<div class="container">
+  <div class="assignment d-flex flex-column">
+    <div class="header-assignment d-flex">
+      <h4>Assignment</h4>
+      <p>All Courses</p>
+      <a href=""><span class="material-symbols-outlined">
+        expand_more
+        </span></a>
+      <a href=""><span class="material-symbols-outlined">
+        search
+        </span></a>
+      <a href=""><span class="material-symbols-outlined">
+        notifications_active
+        </span>
+        </a>
+    </div>
+    <div class="nav-assignment d-flex">
+      <p>All (4)</p>
+      <a href=""><span class="material-symbols-outlined">
+        expand_more
+        </span></a>
+      <p>2 comments</p>
+    </div>
+    <div class="box-assignment">
+      <!--list group-->
+      <div class="row">
+        <div class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Home</a>
+            <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Profile</a>
+            <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Messages</a>
+            <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Settings</a>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+              <!--card-->
+              <div class="card">
+                <div class="card-header">Quote
+                </div>
+                <div class="card-body">
+                  <blockquote class="blockquote mb-0">
+                    <p>A well-known quote, contained in a blockquote element.</p>
+                    <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                  </blockquote>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...
 
+            </div>
+            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...
 
+            </div>
+            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...
+              
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
 
 
 
