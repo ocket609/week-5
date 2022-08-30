@@ -11,7 +11,7 @@
   </head>
 
   <body class="d-flex">
-    <div class="nav d-flex flex-dc">
+    <div class="nav d-flex flex-column">
       <div class="nav-logo">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/logo-ANSWER.svg" alt="logo">
       </div>
@@ -22,20 +22,20 @@
         <li><a href=""><span class="material-symbols-outlined">
           forum
           </span>Question</a></li>
-        <li class="d-flex"><a class="touch text-success" href=""><span class="material-symbols-outlined">
+        <li class="d-flex"><a class="touch text-success" href="index.html"><span class="material-symbols-outlined">
           assignment
           </span>Assignment</a></li>
         <li><a href=""><span class="material-symbols-outlined">
           video_library
           </span>Course</a></li>
-        <li><a href=""><span class="material-symbols-outlined">
+        <li><a href="admin.html"><span class="material-symbols-outlined">
           group
           </span>Admin</a></li>
         <li><a href=""><span class="material-symbols-outlined">
           settings
           </span>Settings</a></li>
       </ul>
-      <div class="user d-flex aling-ic pl-32 pt-360">
+      <div class="user d-flex align-items-center pl-32 pt-360">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg" alt="頭像">
         <div class="personal pl-16">
           <p class="fs-6 fw-bold mb-0">Andy Chen</p>
@@ -82,9 +82,34 @@
 
     <div class="container">
     <div class="admin">
-        <div class="header-admin"></div>
+        <div class="header-admin d-flex justify-content-between align-items-center">
+            <div class="header-ad-a d-flex align-items-center">
+                <h4 class="fw-bold pr-50 mb-0">Assignment</h4>
+                <a href=""><span class="material-symbols-outlined text-success align-middle">
+                    add
+                    </span></a>
+                <p class="fw-bold pr-9 mb-0">Add New Admin</p>
+              </div>
+              <div class="header-ad-b d-flex align-items-center">
+                <a href=""><span class="material-symbols-outlined pr-26">
+                search
+                </span></a>
+                <a href=""><span class="material-symbols-outlined">
+                notifications_active
+                </span>
+                </a>
+              </div>
+        </div>
         <div class="box-admin">
             <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item<span class="material-symbols-outlined text-success align-middle">
+                    arrow_downward
+                    </span></li>
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+                <li class="list-group-item">A fourth item</li>
+                <li class="list-group-item">And a fifth one</li>
                 <li class="list-group-item">An item</li>
                 <li class="list-group-item">A second item</li>
                 <li class="list-group-item">A third item</li>
