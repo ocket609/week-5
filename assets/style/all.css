@@ -12085,6 +12085,11 @@ a {
   font-family: 'Roboto Mono', 'monospace', serif;
 }
 
+/*line-height*/
+.lh-33 {
+  line-height: 33px;
+}
+
 /*margin & padding*/
 .pr-8 {
   padding-right: 8px;
@@ -12110,8 +12115,16 @@ a {
   padding-right: 26px;
 }
 
+.pr-48 {
+  padding-right: 48px;
+}
+
 .pr-50 {
   padding-right: 50px;
+}
+
+.pr-94 {
+  padding-right: 94px;
 }
 
 .pl-16 {
@@ -12132,6 +12145,10 @@ a {
 
 .pb-16 {
   padding-bottom: 16px;
+}
+
+.pb-48 {
+  padding-bottom: 48px;
 }
 
 .mr-16 {
@@ -12238,5 +12255,18 @@ a {
 }
 
 /*列表欄*/
+.admin a {
+  display: block;
+  color: #212529;
+}
+
+.admin .nav span:hover {
+  color: #ffff;
+}
+
+.admin .page-link:hover {
+  color: #ffff;
+  background-color: #198754;
+}
 
 /*# sourceMappingURL=all.css.map */
