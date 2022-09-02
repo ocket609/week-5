@@ -1,0 +1,16 @@
+/*全站設定*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    line-height: $line-height-base;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+/*列表欄*/
+
+.admin{
+    a{
+        display: block;
+        color: $dark;
+    }
+    .nav{
+        span:hover{
+        color: $white;
+        }
+    }
+    .page-link:hover{
+        color: $white;
+        background-color: $success;
+    }
+}
