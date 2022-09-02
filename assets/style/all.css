@@ -12091,12 +12091,24 @@ a {
 }
 
 /*margin & padding*/
+.p-0 {
+  padding: 0;
+}
+
+.p-32 {
+  padding: 32px;
+}
+
 .pr-8 {
   padding-right: 8px;
 }
 
 .pr-9 {
   padding-right: 9px;
+}
+
+.pr-15 {
+  padding-right: 15px;
 }
 
 .pr-16 {
@@ -12127,6 +12139,10 @@ a {
   padding-right: 94px;
 }
 
+.pl-7 {
+  padding-left: 7px;
+}
+
 .pl-16 {
   padding-left: 16px;
 }
@@ -12143,8 +12159,20 @@ a {
   padding-top: 360px;
 }
 
+.pb-8 {
+  padding-bottom: 8px;
+}
+
 .pb-16 {
   padding-bottom: 16px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-32 {
+  padding-bottom: 32px;
 }
 
 .pb-48 {
@@ -12255,18 +12283,68 @@ a {
 }
 
 /*列表欄*/
+.admin {
+  /*摺疊*/
+  /*助教示範第五週摺疊部分*/
+  /*
+    這部分通常是使用 JS 寫的，
+    另外因為這裡可以使用 bootstrap 的 collapse 元件，
+    可以利用它打開關閉時 .collapsed 這個 class 會啟動和移除，來利用 css 做出來
+    */
+}
+
 .admin a {
   display: block;
   color: #212529;
 }
 
-.admin .nav span:hover {
+.admin .nav a:hover {
+  /*吃不進去*/
   color: #fff;
 }
 
 .admin .page-link:hover {
-  color: #fff;
+  color: white;
   background-color: #198754;
+}
+
+.admin .active-nav-span:hover {
+  /*吃不進去*/
+  color: white;
+}
+
+.admin .new-form-a {
+  border-bottom: 1px solid #ced4da;
+}
+
+.admin .modal-content {
+  width: 480px;
+  padding: 32px;
+}
+
+.admin .img-modal img {
+  width: 141px;
+  height: 141px;
+}
+
+.admin .box-modal {
+  width: 251px;
+}
+
+.admin .icon-expand_more {
+  display: none;
+}
+
+.admin .icon-expand_less {
+  display: inline-block;
+}
+
+.admin .collapsed .icon-expand_more {
+  display: inline-block;
+}
+
+.admin .collapsed .icon-expand_less {
+  display: none;
 }
 
 /*# sourceMappingURL=all.css.map */
