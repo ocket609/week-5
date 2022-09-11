@@ -5,6 +5,7 @@
 body{
     font-family: "Lato", sans-serif;
     line-height: $line-height-base;
+    min-height: 100vh; /*助教建議：設定網頁的最小高度為視窗高度，才不會底下一整層空白無解*/
 }
 img{
     max-width: 100%;
