@@ -35,7 +35,7 @@
           settings
           </span>Settings</a></li>
       </ul>
-      <div class="user d-flex align-items-center pl-32 pt-360">
+      <div class="user d-flex align-items-center pl-32 mt-auto">
         <img src="https://raw.githubusercontent.com/hexschool/2022-web-layout-training/main/week5/andychen.jpeg" alt="頭像">
         <div class="personal pl-16">
           <p class="fs-6 fw-bold mb-0">Andy Chen</p>
@@ -43,42 +43,6 @@
         </div>
       </div>
     </div>
-    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>-->
 
     <div class="container">
     <div class="admin">
@@ -359,8 +323,8 @@
                   <p class="fs-4 fw-bold pb-8 mb-0">Emir Wicks</p>
                   <p class="fs-7 pb-20 mb-0">emir.wicks@mail.com</p>
                   <div class="box-modal-b d-flex justify-content-between flex-row">
-                    <small class="bg-light">
-                      <p class="fs-7 mb-0">Verified</p>
+                    <small>
+                      <p class="bg-light fs-7 mb-0">Verified</p>
                     </small>
                     <!-- Collapse 摺疊 -->
                     <!-- 一定要使用collapsed，才能啟動和移除 -->
@@ -368,10 +332,11 @@
                       <span class="material-symbols-outlined text-success icon-expand_less">expand_less</span>
                       <span class="material-symbols-outlined text-success icon-expand_more">expand_more</span>
                     </a>
-                    <div class="collapse pb-32" id="collapseExample">
-                      <button type="button" class="btn btn-outline-danger pr-15">Danger</button>
-                      <button type="button" class="btn btn-success">Success</button>
-                    </div>
+                  </div>
+                  <!-- 助教建議：將按鈕獨立一行，才不會卡在一起 -->
+                  <div class="collapse pb-32" id="collapseExample">
+                    <button type="button" class="btn btn-outline-danger collapse-btn fw-bold pr-15">Deactivate</button>
+                    <button type="button" class="btn btn-success collapse-btn fw-bold">Edit</button>
                   </div>
                 </div>
               </div>
@@ -469,7 +434,7 @@
             <ul class="pagination justify-content-end">
               <li class="page-item">
                 <a class="page-link border-success active-nav-span" href="#" aria-label="Previous">
-                  <span aria-hidden="true" class="material-symbols-outlined text-success fs-6">
+                  <span aria-hidden="true" class="material-symbols-outlined fs-6">
                     navigate_before
                   </span>
                 </a>
@@ -484,8 +449,8 @@
                 <a class="page-link border-success" href="#">3</a>
               </li>
               <li class="page-item">
-                <a class="page-link border-success" href="#" aria-label="Next">
-                  <span aria-hidden="true" class="material-symbols-outlined text-success fs-6">
+                <a class="page-link border-success active-nav-span" href="#" aria-label="Next">
+                  <span aria-hidden="true" class="material-symbols-outlined fs-6">
                     navigate_next
                   </span>
                 </a>

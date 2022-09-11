@@ -12067,6 +12067,8 @@ fieldset:disabled .btn {
 body {
   font-family: "Lato", sans-serif;
   line-height: 1.5;
+  min-height: 100vh;
+  /*助教建議：設定網頁的最小高度為視窗高度，才不會底下一整層空白無解*/
 }
 
 img {
@@ -12328,6 +12330,11 @@ a {
 
 /*列表欄*/
 .admin {
+  /*.nav{
+        a:hover{
+        color: #ffff;
+        }
+    }*/
   /*摺疊*/
   /*助教示範第五週摺疊部分*/
   /*
@@ -12342,19 +12349,23 @@ a {
   color: #212529;
 }
 
-.admin .nav a:hover {
-  /*吃不進去*/
-  color: #fff;
+.admin .page-link {
+  color: #198754;
 }
 
 .admin .page-link:hover {
-  color: white;
+  color: #ffff;
   background-color: #198754;
 }
 
+.admin .active-nav-span {
+  color: #198754;
+}
+
 .admin .active-nav-span:hover {
-  /*吃不進去*/
-  color: white;
+  /*助教建議：有設定 .text-success，這個 class 的 color 設定有套用 !important 所以權重最高*/
+  color: #ffff;
+  background-color: #198754;
 }
 
 .admin .new-form-a {
@@ -12369,6 +12380,12 @@ a {
   padding: 8px 32px;
 }
 
+.admin .tbody th, .admin tbody td {
+  /*助教建議：tr無法修改，從th與td修改*/
+  padding-top: 19px;
+  padding-bottom: 17px;
+}
+
 .admin .modal-content {
   width: 480px;
   padding: 32px;
@@ -12381,6 +12398,11 @@ a {
 
 .admin .box-modal {
   width: 251px;
+}
+
+.admin .collapse-btn {
+  padding: 8px 32px;
+  margin-top: 32px;
 }
 
 .admin .icon-expand_more {
